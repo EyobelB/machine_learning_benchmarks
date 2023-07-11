@@ -1,0 +1,426 @@
+[2023-07-10T22:22:04.071166 7868 ] === CCACHE 4.2 STARTED =========================================
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) absolute_paths_in_stderr = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) base_dir = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (environment) cache_dir = /home/eyobelb/.cache/Nuitka/ccache
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) compiler = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) compiler_check = mtime
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) compiler_type = auto
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) compression = true
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) compression_level = 0
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) cpp_extension = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) debug = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) debug_dir = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) depend_mode = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) direct_mode = true
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) disable = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) extra_files_to_hash = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) file_clone = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) hard_link = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) hash_dir = true
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) ignore_headers_in_manifest = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) ignore_options = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) inode_cache = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) keep_comments_cpp = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) limit_multiple = 0.8
+[2023-07-10T22:22:04.071166 7868 ] Config: (environment) log_file = /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build/ccache-7845.txt
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) max_files = 0
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) max_size = 5.0G
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) path = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) pch_external_checksum = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) prefix_command = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) prefix_command_cpp = 
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) read_only = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) read_only_direct = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) recache = false
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) run_second_cpp = true
+[2023-07-10T22:22:04.071166 7868 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) stats = true
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) temporary_dir = /home/eyobelb/.cache/Nuitka/ccache/tmp
+[2023-07-10T22:22:04.071166 7868 ] Config: (default) umask = 
+[2023-07-10T22:22:04.071205 7868 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src __constants.c
+[2023-07-10T22:22:04.071208 7868 ] Hostname: DESKTOP-FS660DO
+[2023-07-10T22:22:04.071209 7868 ] Working directory: /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build
+[2023-07-10T22:22:04.071211 7868 ] Compiler type: gcc
+[2023-07-10T22:22:04.071243 7868 ] Source file: __constants.c
+[2023-07-10T22:22:04.071246 7868 ] Object file: __constants.o
+[2023-07-10T22:22:04.071255 7868 ] Trying direct lookup
+[2023-07-10T22:22:04.071276 7868 ] No manifest with name 6adehs0tklcl6n6lempa7b1pllgadr6sq in the cache
+[2023-07-10T22:22:04.071461 7868 ] Running preprocessor
+[2023-07-10T22:22:04.071474 7868 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -E __constants.c
+[2023-07-10T22:22:04.076117 7873 ] === CCACHE 4.2 STARTED =========================================
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) absolute_paths_in_stderr = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) base_dir = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (environment) cache_dir = /home/eyobelb/.cache/Nuitka/ccache
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) compiler = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) compiler_check = mtime
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) compiler_type = auto
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) compression = true
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) compression_level = 0
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) cpp_extension = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) debug = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) debug_dir = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) depend_mode = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) direct_mode = true
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) disable = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) extra_files_to_hash = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) file_clone = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) hard_link = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) hash_dir = true
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) ignore_headers_in_manifest = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) ignore_options = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) inode_cache = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) keep_comments_cpp = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) limit_multiple = 0.8
+[2023-07-10T22:22:04.076117 7873 ] Config: (environment) log_file = /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build/ccache-7845.txt
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) max_files = 0
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) max_size = 5.0G
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) path = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) pch_external_checksum = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) prefix_command = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) prefix_command_cpp = 
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) read_only = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) read_only_direct = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) recache = false
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) run_second_cpp = true
+[2023-07-10T22:22:04.076117 7873 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) stats = true
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) temporary_dir = /home/eyobelb/.cache/Nuitka/ccache/tmp
+[2023-07-10T22:22:04.076117 7873 ] Config: (default) umask = 
+[2023-07-10T22:22:04.076161 7873 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src __helpers.c
+[2023-07-10T22:22:04.076168 7873 ] Hostname: DESKTOP-FS660DO
+[2023-07-10T22:22:04.076170 7873 ] Working directory: /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build
+[2023-07-10T22:22:04.076171 7873 ] Compiler type: gcc
+[2023-07-10T22:22:04.076200 7873 ] Source file: __helpers.c
+[2023-07-10T22:22:04.076202 7873 ] Object file: __helpers.o
+[2023-07-10T22:22:04.076209 7873 ] Trying direct lookup
+[2023-07-10T22:22:04.076224 7873 ] No manifest with name a41fadevm1p473i1dokejh5am42edq7nm in the cache
+[2023-07-10T22:22:04.076255 7873 ] Running preprocessor
+[2023-07-10T22:22:04.076257 7873 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -E __helpers.c
+[2023-07-10T22:22:04.077604 7878 ] === CCACHE 4.2 STARTED =========================================
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) absolute_paths_in_stderr = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) base_dir = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (environment) cache_dir = /home/eyobelb/.cache/Nuitka/ccache
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) compiler = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) compiler_check = mtime
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) compiler_type = auto
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) compression = true
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) compression_level = 0
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) cpp_extension = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) debug = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) debug_dir = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) depend_mode = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) direct_mode = true
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) disable = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) extra_files_to_hash = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) file_clone = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) hard_link = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) hash_dir = true
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) ignore_headers_in_manifest = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) ignore_options = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) inode_cache = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) keep_comments_cpp = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) limit_multiple = 0.8
+[2023-07-10T22:22:04.077604 7878 ] Config: (environment) log_file = /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build/ccache-7845.txt
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) max_files = 0
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) max_size = 5.0G
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) path = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) pch_external_checksum = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) prefix_command = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) prefix_command_cpp = 
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) read_only = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) read_only_direct = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) recache = false
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) run_second_cpp = true
+[2023-07-10T22:22:04.077604 7878 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) stats = true
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) temporary_dir = /home/eyobelb/.cache/Nuitka/ccache/tmp
+[2023-07-10T22:22:04.077604 7878 ] Config: (default) umask = 
+[2023-07-10T22:22:04.077640 7878 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src __loader.c
+[2023-07-10T22:22:04.077646 7878 ] Hostname: DESKTOP-FS660DO
+[2023-07-10T22:22:04.077647 7878 ] Working directory: /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build
+[2023-07-10T22:22:04.077649 7878 ] Compiler type: gcc
+[2023-07-10T22:22:04.077678 7878 ] Source file: __loader.c
+[2023-07-10T22:22:04.077679 7878 ] Object file: __loader.o
+[2023-07-10T22:22:04.077685 7878 ] Trying direct lookup
+[2023-07-10T22:22:04.077701 7878 ] No manifest with name a50f5hga47j3trge639sqm3p1fl01412m in the cache
+[2023-07-10T22:22:04.077733 7878 ] Running preprocessor
+[2023-07-10T22:22:04.077735 7878 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -E __loader.c
+[2023-07-10T22:22:04.081506 7883 ] === CCACHE 4.2 STARTED =========================================
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) absolute_paths_in_stderr = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) base_dir = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (environment) cache_dir = /home/eyobelb/.cache/Nuitka/ccache
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) compiler = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) compiler_check = mtime
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) compiler_type = auto
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) compression = true
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) compression_level = 0
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) cpp_extension = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) debug = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) debug_dir = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) depend_mode = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) direct_mode = true
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) disable = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) extra_files_to_hash = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) file_clone = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) hard_link = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) hash_dir = true
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) ignore_headers_in_manifest = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) ignore_options = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) inode_cache = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) keep_comments_cpp = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) limit_multiple = 0.8
+[2023-07-10T22:22:04.081506 7883 ] Config: (environment) log_file = /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build/ccache-7845.txt
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) max_files = 0
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) max_size = 5.0G
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) path = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) pch_external_checksum = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) prefix_command = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) prefix_command_cpp = 
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) read_only = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) read_only_direct = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) recache = false
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) run_second_cpp = true
+[2023-07-10T22:22:04.081506 7883 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) stats = true
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) temporary_dir = /home/eyobelb/.cache/Nuitka/ccache/tmp
+[2023-07-10T22:22:04.081506 7883 ] Config: (default) umask = 
+[2023-07-10T22:22:04.081545 7883 ] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src module.__main__.c
+[2023-07-10T22:22:04.081551 7883 ] Hostname: DESKTOP-FS660DO
+[2023-07-10T22:22:04.081552 7883 ] Working directory: /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build
+[2023-07-10T22:22:04.081554 7883 ] Compiler type: gcc
+[2023-07-10T22:22:04.081583 7883 ] Source file: module.__main__.c
+[2023-07-10T22:22:04.081585 7883 ] Object file: module.__main__.o
+[2023-07-10T22:22:04.081591 7883 ] Trying direct lookup
+[2023-07-10T22:22:04.081686 7883 ] No manifest with name 7765ka8hm8gc1ljo15ivv0gq7u7bjq0ls in the cache
+[2023-07-10T22:22:04.081717 7883 ] Running preprocessor
+[2023-07-10T22:22:04.081720 7883 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -E module.__main__.c
+[2023-07-10T22:22:04.085224 7888 ] === CCACHE 4.2 STARTED =========================================
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) absolute_paths_in_stderr = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) base_dir = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (environment) cache_dir = /home/eyobelb/.cache/Nuitka/ccache
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) compiler = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) compiler_check = mtime
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) compiler_type = auto
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) compression = true
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) compression_level = 0
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) cpp_extension = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) debug = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) debug_dir = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) depend_mode = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) direct_mode = true
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) disable = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) extra_files_to_hash = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) file_clone = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) hard_link = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) hash_dir = true
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) ignore_headers_in_manifest = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) ignore_options = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) inode_cache = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) keep_comments_cpp = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) limit_multiple = 0.8
+[2023-07-10T22:22:04.085224 7888 ] Config: (environment) log_file = /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build/ccache-7845.txt
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) max_files = 0
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) max_size = 5.0G
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) path = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) pch_external_checksum = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) prefix_command = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) prefix_command_cpp = 
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) read_only = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) read_only_direct = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) recache = false
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) run_second_cpp = true
+[2023-07-10T22:22:04.085224 7888 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) stats = true
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) temporary_dir = /home/eyobelb/.cache/Nuitka/ccache/tmp
+[2023-07-10T22:22:04.085224 7888 ] Config: (default) umask = 
+[2023-07-10T22:22:04.085270 7888 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2023-07-10T22:22:04.085273 7888 ] Hostname: DESKTOP-FS660DO
+[2023-07-10T22:22:04.085275 7888 ] Working directory: /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build
+[2023-07-10T22:22:04.085279 7888 ] Compiler type: gcc
+[2023-07-10T22:22:04.085309 7888 ] Source file: static_src/MainProgram.c
+[2023-07-10T22:22:04.085310 7888 ] Object file: static_src/MainProgram.o
+[2023-07-10T22:22:04.085317 7888 ] Trying direct lookup
+[2023-07-10T22:22:04.085357 7888 ] No manifest with name 504c7vko2rej3sr20m2egv2i9965sh6fq in the cache
+[2023-07-10T22:22:04.085390 7888 ] Running preprocessor
+[2023-07-10T22:22:04.085393 7888 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/MainProgram.c
+[2023-07-10T22:22:04.093690 7878 ] Got result name from preprocessor
+[2023-07-10T22:22:04.093716 7878 ] No result with name 96fd31rpvvg18hmk2tfh926fl60s14c1g in the cache
+[2023-07-10T22:22:04.093720 7878 ] Running real compiler
+[2023-07-10T22:22:04.093745 7878 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __loader.o __loader.c
+[2023-07-10T22:22:04.096364 7868 ] Got result name from preprocessor
+[2023-07-10T22:22:04.096391 7868 ] No result with name f415hb2kvu7lvs982itqp80udp9ptiudq in the cache
+[2023-07-10T22:22:04.096394 7868 ] Running real compiler
+[2023-07-10T22:22:04.096417 7868 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __constants.o __constants.c
+[2023-07-10T22:22:04.097309 7873 ] Got result name from preprocessor
+[2023-07-10T22:22:04.097335 7873 ] No result with name 17224aok9lfnhtjevu6joc64j6uu94ci4 in the cache
+[2023-07-10T22:22:04.097338 7873 ] Running real compiler
+[2023-07-10T22:22:04.097360 7873 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __helpers.o __helpers.c
+[2023-07-10T22:22:04.104158 7883 ] Got result name from preprocessor
+[2023-07-10T22:22:04.104185 7883 ] No result with name 2adcdq5vhkirkhu3pd7hqlebsmr8hakvs in the cache
+[2023-07-10T22:22:04.104189 7883 ] Running real compiler
+[2023-07-10T22:22:04.104211 7883 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2023-07-10T22:22:04.106913 7888 ] Got result name from preprocessor
+[2023-07-10T22:22:04.106935 7888 ] No result with name c2bde2vpca37b9vjqkcb9djmt1eqvla34 in the cache
+[2023-07-10T22:22:04.106937 7888 ] Running real compiler
+[2023-07-10T22:22:04.106957 7888 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/MainProgram.o static_src/MainProgram.c
+[2023-07-10T22:22:04.116436 7878 ] Using default compression level 1
+[2023-07-10T22:22:04.116480 7878 ] Storing result __loader.o
+[2023-07-10T22:22:04.116484 7878 ] Storing embedded file #0 .o (9752 bytes) from __loader.o
+[2023-07-10T22:22:04.116545 7878 ] Stored in cache: /home/eyobelb/.cache/Nuitka/ccache/9/6/fd31rpvvg18hmk2tfh926fl60s14c1gR
+[2023-07-10T22:22:04.116588 7878 ] Adding result name to /home/eyobelb/.cache/Nuitka/ccache/a/5/0f5hga47j3trge639sqm3p1fl01412mM
+[2023-07-10T22:22:04.116807 7878 ] Using default compression level 1
+[2023-07-10T22:22:04.116946 7878 ] Result: cache miss
+[2023-07-10T22:22:04.116976 7878 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/a/stats.lock
+[2023-07-10T22:22:04.117036 7878 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/a/stats.lock
+[2023-07-10T22:22:04.117046 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/a/stats.lock
+[2023-07-10T22:22:04.117054 7878 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/9/stats.lock
+[2023-07-10T22:22:04.117072 7878 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/9/stats.lock
+[2023-07-10T22:22:04.117079 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/9/stats.lock
+[2023-07-10T22:22:04.117090 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stderr.iYXHkU
+[2023-07-10T22:22:04.117096 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stdout.9oxI0U
+[2023-07-10T22:22:04.117104 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.UaVIOV
+[2023-07-10T22:22:04.117108 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.cvAl2V.i
+[2023-07-10T22:22:04.117146 7878 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.cvAl2V
+[2023-07-10T22:22:04.128324 7873 ] Using default compression level 1
+[2023-07-10T22:22:04.128372 7873 ] Storing result __helpers.o
+[2023-07-10T22:22:04.128376 7873 ] Storing embedded file #0 .o (2976 bytes) from __helpers.o
+[2023-07-10T22:22:04.128421 7873 ] Stored in cache: /home/eyobelb/.cache/Nuitka/ccache/1/7/224aok9lfnhtjevu6joc64j6uu94ci4R
+[2023-07-10T22:22:04.128466 7873 ] Adding result name to /home/eyobelb/.cache/Nuitka/ccache/a/4/1fadevm1p473i1dokejh5am42edq7nmM
+[2023-07-10T22:22:04.128760 7873 ] Using default compression level 1
+[2023-07-10T22:22:04.128944 7873 ] Result: cache miss
+[2023-07-10T22:22:04.128974 7873 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/a/stats.lock
+[2023-07-10T22:22:04.129025 7873 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/a/stats.lock
+[2023-07-10T22:22:04.129033 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/a/stats.lock
+[2023-07-10T22:22:04.129041 7873 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-10T22:22:04.129104 7873 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-10T22:22:04.129112 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-10T22:22:04.129121 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stderr.XZrsmy
+[2023-07-10T22:22:04.129128 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stdout.hPopYu
+[2023-07-10T22:22:04.129136 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.lgReFv
+[2023-07-10T22:22:04.129140 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.AKnBww.i
+[2023-07-10T22:22:04.129193 7873 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.AKnBww
+[2023-07-10T22:22:04.131933 7868 ] Using default compression level 1
+[2023-07-10T22:22:04.131990 7868 ] Storing result __constants.o
+[2023-07-10T22:22:04.131994 7868 ] Storing embedded file #0 .o (15136 bytes) from __constants.o
+[2023-07-10T22:22:04.132065 7868 ] Stored in cache: /home/eyobelb/.cache/Nuitka/ccache/f/4/15hb2kvu7lvs982itqp80udp9ptiudqR
+[2023-07-10T22:22:04.132103 7868 ] Adding result name to /home/eyobelb/.cache/Nuitka/ccache/6/a/dehs0tklcl6n6lempa7b1pllgadr6sqM
+[2023-07-10T22:22:04.132420 7868 ] Using default compression level 1
+[2023-07-10T22:22:04.132603 7868 ] Result: cache miss
+[2023-07-10T22:22:04.132629 7868 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-10T22:22:04.132681 7868 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-10T22:22:04.132689 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-10T22:22:04.132697 7868 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-10T22:22:04.132716 7868 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-10T22:22:04.132723 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-10T22:22:04.132733 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stderr.eb4Rla
+[2023-07-10T22:22:04.132739 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stdout.TBa8W7
+[2023-07-10T22:22:04.132747 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.rAbpp9
+[2023-07-10T22:22:04.132751 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.8w55Qa.i
+[2023-07-10T22:22:04.132799 7868 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.8w55Qa
+[2023-07-10T22:22:04.134821 7908 ] === CCACHE 4.2 STARTED =========================================
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) absolute_paths_in_stderr = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) base_dir = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (environment) cache_dir = /home/eyobelb/.cache/Nuitka/ccache
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) compiler = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) compiler_check = mtime
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) compiler_type = auto
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) compression = true
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) compression_level = 0
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) cpp_extension = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) debug = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) debug_dir = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) depend_mode = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) direct_mode = true
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) disable = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) extra_files_to_hash = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) file_clone = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) hard_link = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) hash_dir = true
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) ignore_headers_in_manifest = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) ignore_options = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) inode_cache = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) keep_comments_cpp = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) limit_multiple = 0.8
+[2023-07-10T22:22:04.134821 7908 ] Config: (environment) log_file = /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build/ccache-7845.txt
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) max_files = 0
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) max_size = 5.0G
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) path = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) pch_external_checksum = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) prefix_command = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) prefix_command_cpp = 
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) read_only = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) read_only_direct = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) recache = false
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) run_second_cpp = true
+[2023-07-10T22:22:04.134821 7908 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) stats = true
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) temporary_dir = /home/eyobelb/.cache/Nuitka/ccache/tmp
+[2023-07-10T22:22:04.134821 7908 ] Config: (default) umask = 
+[2023-07-10T22:22:04.134864 7908 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2023-07-10T22:22:04.134870 7908 ] Hostname: DESKTOP-FS660DO
+[2023-07-10T22:22:04.134872 7908 ] Working directory: /home/eyobelb/Projects/machine_learning_benchmarks/src/digit_recognition/digit_recognition.build
+[2023-07-10T22:22:04.134873 7908 ] Compiler type: gcc
+[2023-07-10T22:22:04.134907 7908 ] Source file: static_src/CompiledFunctionType.c
+[2023-07-10T22:22:04.134909 7908 ] Object file: static_src/CompiledFunctionType.o
+[2023-07-10T22:22:04.134917 7908 ] Trying direct lookup
+[2023-07-10T22:22:04.134981 7908 ] No manifest with name 15cabbndbu0j43em383d9vicvrs3pe8ta in the cache
+[2023-07-10T22:22:04.135010 7908 ] Running preprocessor
+[2023-07-10T22:22:04.135013 7908 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/CompiledFunctionType.c
+[2023-07-10T22:22:04.146061 7888 ] Using default compression level 1
+[2023-07-10T22:22:04.146108 7888 ] Storing result static_src/MainProgram.o
+[2023-07-10T22:22:04.146112 7888 ] Storing embedded file #0 .o (41296 bytes) from static_src/MainProgram.o
+[2023-07-10T22:22:04.146224 7888 ] Stored in cache: /home/eyobelb/.cache/Nuitka/ccache/c/2/bde2vpca37b9vjqkcb9djmt1eqvla34R
+[2023-07-10T22:22:04.146276 7888 ] Adding result name to /home/eyobelb/.cache/Nuitka/ccache/5/0/4c7vko2rej3sr20m2egv2i9965sh6fqM
+[2023-07-10T22:22:04.146652 7888 ] Using default compression level 1
+[2023-07-10T22:22:04.146834 7888 ] Result: cache miss
+[2023-07-10T22:22:04.146864 7888 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/5/stats.lock
+[2023-07-10T22:22:04.146921 7888 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/5/stats.lock
+[2023-07-10T22:22:04.146931 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/5/stats.lock
+[2023-07-10T22:22:04.146939 7888 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/c/stats.lock
+[2023-07-10T22:22:04.146958 7888 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/c/stats.lock
+[2023-07-10T22:22:04.146964 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/c/stats.lock
+[2023-07-10T22:22:04.146976 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stderr.LwlWZF
+[2023-07-10T22:22:04.146982 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stdout.M1H6LC
+[2023-07-10T22:22:04.146990 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.n3JCPD
+[2023-07-10T22:22:04.146994 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.cRTElC.i
+[2023-07-10T22:22:04.147041 7888 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.cRTElC
+[2023-07-10T22:22:04.169535 7883 ] Using default compression level 1
+[2023-07-10T22:22:04.169583 7883 ] Storing result module.__main__.o
+[2023-07-10T22:22:04.169587 7883 ] Storing embedded file #0 .o (150512 bytes) from module.__main__.o
+[2023-07-10T22:22:04.169854 7883 ] Stored in cache: /home/eyobelb/.cache/Nuitka/ccache/2/a/dcdq5vhkirkhu3pd7hqlebsmr8hakvsR
+[2023-07-10T22:22:04.169909 7883 ] Adding result name to /home/eyobelb/.cache/Nuitka/ccache/7/7/65ka8hm8gc1ljo15ivv0gq7u7bjq0lsM
+[2023-07-10T22:22:04.170349 7883 ] Using default compression level 1
+[2023-07-10T22:22:04.170533 7883 ] Result: cache miss
+[2023-07-10T22:22:04.170564 7883 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/7/stats.lock
+[2023-07-10T22:22:04.170624 7883 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/7/stats.lock
+[2023-07-10T22:22:04.170634 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/7/stats.lock
+[2023-07-10T22:22:04.170643 7883 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/2/stats.lock
+[2023-07-10T22:22:04.170662 7883 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/2/stats.lock
+[2023-07-10T22:22:04.170668 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/2/stats.lock
+[2023-07-10T22:22:04.170680 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stderr.JYBfAh
+[2023-07-10T22:22:04.170687 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stdout.BTGEoj
+[2023-07-10T22:22:04.170694 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.3wRWDg
+[2023-07-10T22:22:04.170700 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.9P9PEi.i
+[2023-07-10T22:22:04.170773 7883 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.9P9PEi
+[2023-07-10T22:22:04.211054 7908 ] Got result name from preprocessor
+[2023-07-10T22:22:04.211083 7908 ] No result with name 78ebfvb8pr46bdmj0llhjuevj734guot0 in the cache
+[2023-07-10T22:22:04.211087 7908 ] Running real compiler
+[2023-07-10T22:22:04.211115 7908 ] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/include -I/home/eyobelb/Projects/machine_learning_benchmarks/venv/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/CompiledFunctionType.o static_src/CompiledFunctionType.c
+[2023-07-10T22:22:04.960566 7908 ] Using default compression level 1
+[2023-07-10T22:22:04.960612 7908 ] Storing result static_src/CompiledFunctionType.o
+[2023-07-10T22:22:04.960615 7908 ] Storing embedded file #0 .o (3213504 bytes) from static_src/CompiledFunctionType.o
+[2023-07-10T22:22:04.964269 7908 ] Stored in cache: /home/eyobelb/.cache/Nuitka/ccache/7/8/ebfvb8pr46bdmj0llhjuevj734guot0R
+[2023-07-10T22:22:04.964327 7908 ] Adding result name to /home/eyobelb/.cache/Nuitka/ccache/1/5/cabbndbu0j43em383d9vicvrs3pe8taM
+[2023-07-10T22:22:04.964790 7908 ] Using default compression level 1
+[2023-07-10T22:22:04.965011 7908 ] Result: cache miss
+[2023-07-10T22:22:04.965042 7908 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-10T22:22:04.965085 7908 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-10T22:22:04.965092 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-10T22:22:04.965100 7908 ] Acquired lock /home/eyobelb/.cache/Nuitka/ccache/7/stats.lock
+[2023-07-10T22:22:04.965137 7908 ] Releasing lock /home/eyobelb/.cache/Nuitka/ccache/7/stats.lock
+[2023-07-10T22:22:04.965144 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/7/stats.lock
+[2023-07-10T22:22:04.965154 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stderr.5H57x9
+[2023-07-10T22:22:04.965161 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.stdout.Y1Zafa
+[2023-07-10T22:22:04.965168 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.dNxWE8
+[2023-07-10T22:22:04.965172 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.zufTM8.i
+[2023-07-10T22:22:04.965343 7908 ] Unlink /home/eyobelb/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.zufTM8

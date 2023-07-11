@@ -7,6 +7,7 @@ from time import time
 from torchvision import datasets, transforms
 from torch import nn, optim
 from torch.utils.data import DataLoader
+from torchvision.utils import save_image
 
 # First, we need to define the transforms on our data
 # This will involve a conversion to the Pytorch Tensor format,
@@ -86,7 +87,9 @@ with torch.no_grad():
 probability_correct = torch.exp(probability_logistic)
 probability_correct = list(probability_correct.numpy()[0])
 print("Predicted Digit: ", probability_correct.index(max(probability_correct)))
-print("Correct Digit: ", test_image)
+
+# Save test image for viewing
+save_image(images[0], "test.png")
 
 # Save the model
 torch.save(model, 'digit_recognition.pt')
