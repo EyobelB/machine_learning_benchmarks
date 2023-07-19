@@ -1,1 +1,5 @@
 venv/
+src/digit_recognition/PATH_TO_STORE_TESTSET
+src/digit_recognition/PATH_TO_STORE_TRAINSET
+src/race_detection/train
+src/race_detection/val
